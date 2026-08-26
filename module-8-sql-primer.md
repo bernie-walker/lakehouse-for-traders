@@ -1,6 +1,8 @@
 ---
 title: "Module 8: SQL Primer"
 nav_order: 9
+permalink: /module-8-sql-primer/
+layout: default
 ---
 
 # Module 8 — SQL Primer (4-6 hrs)
@@ -18,4 +20,4 @@ nav_order: 9
 
 ---
 
-[← Previous: Module 7](module-7-architecture-overview.html) · [Back to course overview](/) · [Next: Capstone Exercise →](capstone.html)
+[← Previous: Module 7](/module-7-architecture-overview/) · [Back to course overview](/) · [Next: Capstone Exercise →](/capstone/)

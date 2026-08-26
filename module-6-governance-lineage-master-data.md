@@ -1,6 +1,8 @@
 ---
 title: "Module 6: Governance, Lineage, Master Data"
 nav_order: 7
+permalink: /module-6-governance-lineage-master-data/
+layout: default
 ---
 
 # Module 6 — Data Governance, Lineage, and Master Data (2-3 hrs)
@@ -17,4 +19,4 @@ nav_order: 7
 
 ---
 
-[← Previous: Module 5](module-5-back-office-and-recalibration.html) · [Back to course overview](/) · [Next: Module 7 →](module-7-architecture-overview.html)
+[← Previous: Module 5](/module-5-back-office-and-recalibration/) · [Back to course overview](/) · [Next: Module 7 →](/module-7-architecture-overview/)

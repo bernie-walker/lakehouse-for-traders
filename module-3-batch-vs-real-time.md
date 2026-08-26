@@ -1,6 +1,8 @@
 ---
 title: "Module 3: Batch vs. Real-Time"
 nav_order: 4
+permalink: /module-3-batch-vs-real-time/
+layout: default
 ---
 
 # Module 3 — Batch vs. Real-Time, Demystified (3-4 hrs)
@@ -16,4 +18,4 @@ nav_order: 4
 
 ---
 
-[← Previous: Module 2](module-2-where-the-data-comes-from.html) · [Back to course overview](/) · [Next: Module 4 →](module-4-the-business-layer.html)
+[← Previous: Module 2](/module-2-where-the-data-comes-from/) · [Back to course overview](/) · [Next: Module 4 →](/module-4-the-business-layer/)

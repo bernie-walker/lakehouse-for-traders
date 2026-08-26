@@ -1,6 +1,8 @@
 ---
 title: "Module 1: Warehouse vs. Lake vs. Lakehouse"
 nav_order: 2
+permalink: /module-1-warehouse-vs-lake-vs-lakehouse/
+layout: default
 ---
 
 # Module 1 — Warehouse vs. Lake vs. Lakehouse (2-3 hrs)
@@ -17,4 +19,4 @@ nav_order: 2
 
 ---
 
-[Back to course overview](/) · [Next: Module 2 →](module-2-where-the-data-comes-from.html)
+[Back to course overview](/) · [Next: Module 2 →](/module-2-where-the-data-comes-from/)

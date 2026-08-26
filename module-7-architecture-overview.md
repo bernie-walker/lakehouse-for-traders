@@ -1,6 +1,8 @@
 ---
 title: "Module 7: Architecture Overview"
 nav_order: 8
+permalink: /module-7-architecture-overview/
+layout: default
 ---
 
 # Module 7 — How the Pieces Fit Into an Architecture You Can Manage (3-4 hrs)
@@ -18,4 +20,4 @@ nav_order: 8
 
 ---
 
-[← Previous: Module 6](module-6-governance-lineage-master-data.html) · [Back to course overview](/) · [Next: Module 8 →](module-8-sql-primer.html)
+[← Previous: Module 6](/module-6-governance-lineage-master-data/) · [Back to course overview](/) · [Next: Module 8 →](/module-8-sql-primer/)

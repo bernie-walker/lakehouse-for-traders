@@ -1,6 +1,8 @@
 ---
 title: "Module 4: The Business Layer"
 nav_order: 5
+permalink: /module-4-the-business-layer/
+layout: default
 ---
 
 # Module 4 — The Business Layer: Turning Raw Data Into Something Traders Trust (4-5 hrs)
@@ -17,4 +19,4 @@ nav_order: 5
 
 ---
 
-[← Previous: Module 3](module-3-batch-vs-real-time.html) · [Back to course overview](/) · [Next: Module 5 →](module-5-back-office-and-recalibration.html)
+[← Previous: Module 3](/module-3-batch-vs-real-time/) · [Back to course overview](/) · [Next: Module 5 →](/module-5-back-office-and-recalibration/)

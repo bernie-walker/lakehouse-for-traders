@@ -1,6 +1,8 @@
 ---
 title: "Module 2: Where the Data Comes From"
 nav_order: 3
+permalink: /module-2-where-the-data-comes-from/
+layout: default
 ---
 
 # Module 2 — Where the Data Comes From: Exchanges, Vendors, and FIX (3-4 hrs)
@@ -18,4 +20,4 @@ nav_order: 3
 
 ---
 
-[← Previous: Module 1](module-1-warehouse-vs-lake-vs-lakehouse.html) · [Back to course overview](/) · [Next: Module 3 →](module-3-batch-vs-real-time.html)
+[← Previous: Module 1](/module-1-warehouse-vs-lake-vs-lakehouse/) · [Back to course overview](/) · [Next: Module 3 →](/module-3-batch-vs-real-time/)

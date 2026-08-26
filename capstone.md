@@ -1,6 +1,8 @@
 ---
 title: "Capstone Exercise"
 nav_order: 10
+permalink: /capstone/
+layout: default
 ---
 
 # Capstone Exercise
@@ -18,4 +20,4 @@ This brief is both the test of whether the concepts landed and a genuinely usefu
 
 ---
 
-[← Previous: Module 8](module-8-sql-primer.html) · [Back to course overview](/)
+[← Previous: Module 8](/module-8-sql-primer/) · [Back to course overview](/)

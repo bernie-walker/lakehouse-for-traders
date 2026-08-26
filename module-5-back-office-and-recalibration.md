@@ -1,6 +1,8 @@
 ---
 title: "Module 5: Back Office and Recalibration"
 nav_order: 6
+permalink: /module-5-back-office-and-recalibration/
+layout: default
 ---
 
 # Module 5 — Back Office Data and Model Recalibration (3-4 hrs)
@@ -18,4 +20,4 @@ nav_order: 6
 
 ---
 
-[← Previous: Module 4](module-4-the-business-layer.html) · [Back to course overview](/) · [Next: Module 6 →](module-6-governance-lineage-master-data.html)
+[← Previous: Module 4](/module-4-the-business-layer/) · [Back to course overview](/) · [Next: Module 6 →](/module-6-governance-lineage-master-data/)
