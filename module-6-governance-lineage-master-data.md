@@ -9,7 +9,7 @@ layout: default
 
 **What you'll learn:** How to trace a number back to its source (lineage), how firms keep one clean list of instruments/counterparties (master data management), and why this matters for audit and compliance in finance specifically.
 
-**Why it matters:** Regulators and internal audit will eventually ask "where did this number come from?" — your friend needs to know this is a buildable, expected capability, not an afterthought.
+**Why it matters:** Regulators and internal audit will eventually ask "where did this number come from?" — you need to know this is a buildable, expected capability, not an afterthought.
 
 **Resources:**
 - Video (2 min): [What Is Data Governance? Explained in Under 2 Minutes](https://www.youtube.com/watch?v=S5xnM9vBjFc)

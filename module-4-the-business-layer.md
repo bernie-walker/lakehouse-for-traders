@@ -9,7 +9,7 @@ layout: default
 
 **What you'll learn:** How raw feeds get organized into "facts" (things that happened — trades, prices) and "dimensions" (context — instrument, counterparty, desk), and what "single source of truth" / "golden source" means in practice.
 
-**Why it matters:** This is the core of what your friend is building — the layer front-office traders actually query. Getting this modeled well is the difference between a dashboard people trust and one they double-check against Excel.
+**Why it matters:** This is the core of what you're building — the layer front-office traders actually query. Getting this modeled well is the difference between a dashboard people trust and one they double-check against Excel.
 
 **Resources:**
 - Blog (clearest intro to facts/dimensions): [Dimensional Modeling: Facts, Dimensions, and Grains — DEV Community](https://dev.to/alexmercedcoder/dimensional-modeling-facts-dimensions-and-grains-3obm)

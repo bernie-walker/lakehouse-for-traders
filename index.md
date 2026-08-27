@@ -2,11 +2,11 @@
 title: Home
 layout: home
 nav_order: 1
-description: "Data Lakehouse Fundamentals for Finance SMEs — a non-technical course."
+description: "Data Lakehouse Fundamentals for Traders — a non-technical course."
 permalink: /
 ---
 
-# Data Lakehouse Fundamentals for Finance SMEs
+# Data Lakehouse Fundamentals for Traders
 {: .fs-9 }
 
 A non-technical course for leading a lakehouse product built at an investment firm.
@@ -14,7 +14,7 @@ A non-technical course for leading a lakehouse product built at an investment fi
 
 ---
 
-**Who this is for:** A subject-matter expert (not an engineer) who needs to define requirements, evaluate vendors/engineers, and make good tradeoff decisions while building a data lakehouse — covering exchange/vendor data sourcing, a front-office business layer, back-office trade/reconciliation data, batch and real-time pipelines, and model recalibration.
+**Who this is for:** You don't need to be an engineer to lead a data lakehouse build — you need to define requirements, evaluate vendors and engineers, and make good tradeoff decisions. This course covers exchange/vendor data sourcing, a front-office business layer, back-office trade/reconciliation data, batch and real-time pipelines, and model recalibration.
 
 **Format:** 8 modules, ~25-30 hours total over 3-4 weeks. Each module has: what you'll learn, why it matters for this project, and curated resources (blogs + videos, non-technical, at most as technical as SQL).
 

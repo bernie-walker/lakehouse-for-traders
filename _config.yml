@@ -4,6 +4,9 @@ description: >-
 
 theme: just-the-docs
 
+exclude:
+  - CLAUDE.md
+
 color_scheme: light
 search_enabled: true
 
