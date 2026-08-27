@@ -1,0 +1,33 @@
+// Pin the sidebar flush to the left edge instead of the theme's default
+// wide-viewport centering (which widens .side-bar and right-aligns its
+// content, leaving an empty band on the left on wide monitors).
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width;
+    min-width: $nav-width;
+  }
+
+  & + .main {
+    @include mq(lg) {
+      margin-left: $nav-width;
+    }
+  }
+}
+
+// Default nav-list-link left padding is $gutter-spacing (2rem/32px) at the
+// md breakpoint and up — large relative to a narrowed sidebar. Trim it to
+// the theme's own "sm" gutter value instead.
+.nav-list .nav-list-item .nav-list-link {
+  @include mq(md) {
+    padding-left: $gutter-spacing-sm;
+  }
+}
+
+// .site-title picks up the same $gutter-spacing-sm -> $gutter-spacing
+// escalation (via the theme's `container` mixin) — match it to the nav
+// links above for a consistent left edge.
+.site-title {
+  @include mq(md) {
+    padding-left: $gutter-spacing-sm;
+  }
+}
