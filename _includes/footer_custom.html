@@ -1,0 +1,7 @@
+{%- if site.footer_content -%}
+  <p class="text-small mb-0">{{ site.footer_content }}</p>
+{%- endif -%}
+<p class="text-small mb-0">
+  {%- if site.last_updated -%}Content last updated: {{ site.last_updated }}. {%- endif -%}
+  Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
+</p>
