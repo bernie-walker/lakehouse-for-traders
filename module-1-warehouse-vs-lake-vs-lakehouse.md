@@ -19,4 +19,4 @@ layout: default
 
 ---
 
-[Back to course overview](/) · [Next: Module 2 →](/module-2-where-the-data-comes-from/)
+[Back to course overview]({{ "/" | relative_url }}) · [Next: Module 2 →]({{ "/module-2-where-the-data-comes-from/" | relative_url }})

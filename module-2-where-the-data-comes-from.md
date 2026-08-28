@@ -20,4 +20,4 @@ layout: default
 
 ---
 
-[← Previous: Module 1](/module-1-warehouse-vs-lake-vs-lakehouse/) · [Back to course overview](/) · [Next: Module 3 →](/module-3-batch-vs-real-time/)
+[← Previous: Module 1]({{ "/module-1-warehouse-vs-lake-vs-lakehouse/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Module 3 →]({{ "/module-3-batch-vs-real-time/" | relative_url }})

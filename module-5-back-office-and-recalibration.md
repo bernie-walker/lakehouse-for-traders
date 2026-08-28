@@ -20,4 +20,4 @@ layout: default
 
 ---
 
-[← Previous: Module 4](/module-4-the-business-layer/) · [Back to course overview](/) · [Next: Module 6 →](/module-6-governance-lineage-master-data/)
+[← Previous: Module 4]({{ "/module-4-the-business-layer/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Module 6 →]({{ "/module-6-governance-lineage-master-data/" | relative_url }})

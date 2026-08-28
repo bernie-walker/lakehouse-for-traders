@@ -20,4 +20,4 @@ layout: default
 
 ---
 
-[← Previous: Module 6](/module-6-governance-lineage-master-data/) · [Back to course overview](/) · [Next: Module 8 →](/module-8-sql-primer/)
+[← Previous: Module 6]({{ "/module-6-governance-lineage-master-data/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Module 8 →]({{ "/module-8-sql-primer/" | relative_url }})

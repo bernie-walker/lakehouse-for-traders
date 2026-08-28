@@ -21,4 +21,4 @@ layout: default
 
 ---
 
-[← Previous: Module 2](/module-2-where-the-data-comes-from/) · [Back to course overview](/) · [Next: Module 4 →](/module-4-the-business-layer/)
+[← Previous: Module 2]({{ "/module-2-where-the-data-comes-from/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Module 4 →]({{ "/module-4-the-business-layer/" | relative_url }})

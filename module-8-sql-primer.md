@@ -20,4 +20,4 @@ layout: default
 
 ---
 
-[← Previous: Module 7](/module-7-architecture-overview/) · [Back to course overview](/) · [Next: Capstone Exercise →](/capstone/)
+[← Previous: Module 7]({{ "/module-7-architecture-overview/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Capstone Exercise →]({{ "/capstone/" | relative_url }})
