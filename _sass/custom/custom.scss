@@ -31,3 +31,43 @@
     padding-left: $gutter-spacing-sm;
   }
 }
+
+// The per-page doc footer (<hr><footer>...</footer>, appended after <main>
+// inside #main-content.main-content) has no defined height context, so on
+// short pages it trails right after the content instead of sitting at the
+// bottom of the screen. Fix: establish the 100vh floor at .main (a direct
+// child of <body>, unaffected by the fixed-position sidebar), then let
+// flexbox distribute the remaining space down through .main-content-wrap
+// and #main-content automatically — this correctly accounts for whatever
+// height the header/breadcrumbs above it consume, without hardcoding those
+// pixel values. On long pages this is a no-op: <main> just grows past
+// 100vh and the footer still follows normally.
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content-wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+
+  // Default bottom padding is $gutter-spacing-sm (16px) below md and
+  // $gutter-spacing (32px) at md+ — flattened to 0.5rem at both here.
+  padding-bottom: 0.5rem;
+
+  @include mq(md) {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+
+  > main {
+    flex: 1 0 auto;
+  }
+}
