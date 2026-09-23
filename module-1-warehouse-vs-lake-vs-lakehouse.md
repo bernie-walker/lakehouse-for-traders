@@ -19,4 +19,4 @@ layout: default
 
 ---
 
-[Back to course overview]({{ "/" | relative_url }}) · [Next: Module 2 →]({{ "/module-2-where-the-data-comes-from/" | relative_url }})
+[Back to course overview]({{ "/" | relative_url }}){: .mx-4 } · [Next: Module 2 →]({{ "/module-2-where-the-data-comes-from/" | relative_url }})

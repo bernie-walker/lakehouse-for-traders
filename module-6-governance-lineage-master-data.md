@@ -21,4 +21,4 @@ layout: default
 
 ---
 
-[← Previous: Module 5]({{ "/module-5-back-office-and-recalibration/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Module 7 →]({{ "/module-7-architecture-overview/" | relative_url }})
+[← Previous: Module 5]({{ "/module-5-back-office-and-recalibration/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}){: .mx-4 } · [Next: Module 7 →]({{ "/module-7-architecture-overview/" | relative_url }})

@@ -21,4 +21,4 @@ layout: default
 
 ---
 
-[← Previous: Module 3]({{ "/module-3-batch-vs-real-time/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}) · [Next: Module 5 →]({{ "/module-5-back-office-and-recalibration/" | relative_url }})
+[← Previous: Module 3]({{ "/module-3-batch-vs-real-time/" | relative_url }}) · [Back to course overview]({{ "/" | relative_url }}){: .mx-4 } · [Next: Module 5 →]({{ "/module-5-back-office-and-recalibration/" | relative_url }})
