@@ -1,0 +1,28 @@
+name: Check links
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC. Independent of the deploy workflow — this
+    # never blocks publishing, it just reports so link rot gets noticed.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  htmlproofer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: Check internal and external links
+        run: |
+          bundle exec htmlproofer ./_site \
+            --checks Links \
+            --typhoeus '{"connecttimeout": 10, "timeout": 30, "followlocation": true}' \
+            --hydra '{"max_concurrency": 25}'
