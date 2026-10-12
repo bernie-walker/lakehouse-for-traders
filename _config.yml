@@ -19,4 +19,4 @@ footer_content: "A curated reading list, not original explainer content — see 
 
 # Update manually whenever course content changes (not for infra/config/styling
 # commits) — get the current value with: date -u "+%B %d, %Y, %H:%M UTC"
-last_updated: "August 28, 2026, 12:42 UTC"
+last_updated: "October 08, 2026, 05:10 UTC"

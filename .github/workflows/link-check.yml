@@ -19,10 +19,28 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
       - name: Build site
-        run: bundle exec jekyll build
+        # Without --baseurl, canonical/og:url tags point at
+        # bernie-walker.github.io/<page> instead of the real
+        # bernie-walker.github.io/lakehouse-for-traders/<page> — html-proofer
+        # then "correctly" reports those as broken external links, since
+        # the unprefixed URL genuinely doesn't exist on the live site.
+        run: bundle exec jekyll build --baseurl "/lakehouse-for-traders"
       - name: Check internal and external links
         run: |
+          # datacamp.com is excluded: confirmed alive via manual fetch, but
+          # consistently 403s this CI runner (bot/Cloudflare blocking) — a
+          # known false positive, not a dead link.
+          #
+          # --swap-urls strips the /lakehouse-for-traders prefix from
+          # internal hrefs before resolving them against the local _site/
+          # filesystem (which has no such subfolder — --baseurl only
+          # rewrites hrefs, it doesn't nest the build output). Anchored to
+          # a leading "/", so it never matches the full external
+          # https://bernie-walker.github.io/lakehouse-for-traders/... URLs
+          # used by the canonical/og:url checks.
           bundle exec htmlproofer ./_site \
             --checks Links \
             --typhoeus '{"connecttimeout": 10, "timeout": 30, "followlocation": true}' \
-            --hydra '{"max_concurrency": 25}'
+            --hydra '{"max_concurrency": 25}' \
+            --ignore-urls "/^https:\/\/(www\.)?datacamp\.com/" \
+            --swap-urls "^/lakehouse-for-traders/:/"

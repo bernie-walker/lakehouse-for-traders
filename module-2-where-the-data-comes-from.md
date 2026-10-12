@@ -12,7 +12,7 @@ layout: default
 **Why it matters:** You're sourcing from "different exchanges and other sources" — you need to know that each source has its own format, refresh cadence, and licensing terms, and that FIX is the closest thing to a common language among them.
 
 **Resources:**
-- Blog (plain intro): [Introduction — FIX Trading Community](https://www.fixtrading.org/online-specification/introduction/)
+- Blog (plain intro): [An Introduction to the FIX Protocol — FIX Trading Community](https://fixtrading.org/standards/fix-protocol/)
 - Blog: [What is FIX protocol? — FIXSOL](https://www.fixsol.com/blogs/what-is-fix-protocol/)
 - Reference: [Financial Information eXchange — Wikipedia](https://en.wikipedia.org/wiki/Financial_Information_eXchange)
 

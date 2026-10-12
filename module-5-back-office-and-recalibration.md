@@ -14,7 +14,7 @@ layout: default
 **Resources:**
 - Video: [Trade Life Cycle - Front office to Back office process flow](https://www.youtube.com/watch?v=f-r5tRYb6Mw)
 - Blog: [Trade Life Cycle In Capital Markets: 8 Stages For BAs](https://businessanalyst.techcanvass.com/trade-lifecycle-for-ba/)
-- Blog (reconciliation focus): [Trade Life Cycle — Reconciliations](https://www.reconciliationplus.com/trade-life-cycle/)
+- Blog (reconciliation focus): [Trade Reconciliation: A Comprehensive Guide — Limina](https://www.limina.com/blog/trade-reconciliation-guide)
 - Blog (recalibration/versioning concept): [Slowly Changing Dimensions: Types and Examples — Luzmo](https://www.luzmo.com/blog/slowly-changing-dimensions)
 - Reference: [Slowly Changing Dimension — Wikipedia](https://en.wikipedia.org/wiki/Slowly_changing_dimension)
 
